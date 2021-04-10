@@ -4,11 +4,11 @@ class Foo {
     this.bar = value
   }
   // bar = "baz"
-  getName() {
-    return this.bar
+  getName(name) {
+    return name
   }
   greetMe() {
-    return `Hello ${this.getName()}`
+    return `Hello ${this.getName('Lucas')}`
   }
 
 } 
