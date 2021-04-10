@@ -8,7 +8,7 @@ class Foo {
     return name
   }
   greetMe() {
-    return `Hello ${this.getName('Lucas')}`
+    return `Hello ${this.getName(this.bar)}`
   }
 
 } 
