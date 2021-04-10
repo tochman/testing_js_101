@@ -1,8 +1,13 @@
-const foo = () => {
-  return 'bar'
-}
 
-module.exports = foo
-// if (window.module !== 'undefined') {
-//   module.exports = foo
-// }
+class Foo {
+  constructor(value) {
+    this.bar = value
+  }
+  // bar = "baz"
+  greetMe() {
+    return "Hello Thomas"
+  }
+
+} 
+
+module.exports = Foo
